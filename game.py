@@ -161,9 +161,7 @@ class PlayGame(Game):
 
 
 class LearnGame(Game):
-    """Game mode in which the bot ask for a hand and advice the user about the best choice to play that hand (stand or hit)
-
-    Bot use a policy calculated using Markov Decision Processes (MDP) theory"""
+    """Game mode in which the bot plays as player according to a given policy"""
     def __init__(self, policy):
         # Set player and dealer
         self.dealer = BotDealer()

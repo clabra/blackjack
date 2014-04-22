@@ -32,7 +32,7 @@ def run(role, policy):
     Parameters
     ----------
     role : str
-        Bot role: 'dealer'|'mentor'
+        Bot role: 'dealer'|'player'
     """
     if role in ['dealer', 'd']:
         """Bot in dealer role"""
