@@ -60,7 +60,7 @@ FILES
 
 TRADE-OFFS
 ----------
-- For naming conventions PEP 8 - Style Guide is used
+- PEP 8 - Style Guide is used for naming conventions
 - Code tries to remove as many dependencies as possible, making some trade-offs as:
     - not use python's abc module to create abstract classes explicitly. Use it would require python version >= 2.6
     - not use numpy for certain data manipulation
