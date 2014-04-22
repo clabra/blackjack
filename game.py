@@ -158,6 +158,7 @@ class PlayGame(Game):
         # Set player and dealer
         self.player = HumanPlayer() # user is the player
         self.dealer = BotDealer() # program is the dealer
+        self.results_file = None
 
 
 class LearnGame(Game):
