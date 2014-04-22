@@ -47,15 +47,16 @@ play blackjack for a set of given rules using techniques such as Markov Decision
 
 FILES
 -----
-- README.txt      -   this file
-- blackjack.py	-   main program
-- game.py         -   the game loop
-- player.py       -   opponents
+- README.txt        -   this file
+- blackjack.py	    -   main program
+- game.py           -   the game loop
+- player.py         -   opponents
 - deck.py		    -   cards, draw()
-- policy.py       -   used in learn mode to read policy from file
-- policy.conf     -   policy file
-- settings.py     -   configuration: game rules, directory for learn results, etc.
-- learn_results/  -   directory for result files
+- policy.py         -   used in learn mode to read policy from file
+- policy.conf       -   policy file
+- settings.py       -   configuration: game rules, directory for learn results, etc.
+- learn_results/    -   directory for result files
+- tests             -   tests
 
 
 TRADE-OFFS
