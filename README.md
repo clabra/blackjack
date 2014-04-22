@@ -47,20 +47,20 @@ play blackjack for a set of given rules using techniques such as Markov Decision
 
 FILES
 -----
-README.txt      -   this file
-blackjack.py	-   main program
-game.py         -   the game loop
-player.py       -   opponents
-deck.py		    -   cards, draw()
-policy.py       -   used in learn mode to read policy from file
-policy.conf     -   policy file
-settings.py     -   configuration: game rules, directory for learn results, etc.
-learn_results/  -   directory for result files
+- README.txt      -   this file
+- blackjack.py	-   main program
+- game.py         -   the game loop
+- player.py       -   opponents
+- deck.py		    -   cards, draw()
+- policy.py       -   used in learn mode to read policy from file
+- policy.conf     -   policy file
+- settings.py     -   configuration: game rules, directory for learn results, etc.
+- learn_results/  -   directory for result files
 
 
 TRADE-OFFS
 ----------
-1) For naming conventions PEP 8 - Style Guide is used
-2) Code tries to remove as many dependencies as possible, making some trade-offs as:
-- not use python's abc module to create abstract classes explicitly. Use it would require python version >= 2.6
-- not use numpy for certain data manipulation
+- For naming conventions PEP 8 - Style Guide is used
+- Code tries to remove as many dependencies as possible, making some trade-offs as:
+    - not use python's abc module to create abstract classes explicitly. Use it would require python version >= 2.6
+    - not use numpy for certain data manipulation
