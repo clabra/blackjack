@@ -6,7 +6,7 @@ import math
 from policy import Policy
 
 class Opponent(object):
-    """Abstract class for which Player and Dealer have in common"""
+    """Abstract class for what Player and Dealer have in common"""
 
     def __init__(self):
         self.cards = []
